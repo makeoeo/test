@@ -1,0 +1,164 @@
+@charset "UTF-8";
+ *{
+    margin: 0px auto;
+    padding: 0px;
+  }
+  body{
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+    background-color: #000;
+    text-align: center;
+  }
+    a { text-decoration: none; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:focus { text-decoration: none; }
+    a:hover, a:active { text-decoration: none; }
+  li{
+    list-style: none;
+  }
+  img{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+  table{
+    padding:0;
+    border:0;
+    border-spacing:0px;
+    border-collapse:collapse;
+    color: #fff;
+  }
+  .container{
+  	width : 100% auto;
+ 	display: flex;
+ 	flex-direction: column
+  }
+  .header_board {
+  width: 100%;
+  height: 300px;
+  position: relative;
+
+  }
+  .header_logo a{
+    position:absolute;
+  	font-size: 70px;
+  	color: #fff;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-40%, -55%);
+  }
+   .header_logo img{
+  	position:absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-150%, -50%);
+  }
+  .board_menu{
+  display :flex;
+   transform: translate(0%, 400%);
+   margin-top: 50px;
+  }
+  .board_menu li{
+  	float: left;
+    width: 190px;
+    height: 50px;
+  	border: 1px solid white; 
+  }
+   .board_menu li:hover{
+  	float: left;
+    width: 190px;
+    height: 50px;
+  	border: 1px solid white; 
+  	background: #7b1fa2;
+  }
+  .header_board a{
+  	color: #fff;
+  	height: 50px;
+  	line-height: 50px;
+  }
+  .page_info h1{
+  	color :#fff;
+  	top : 50%;
+   	left: 50%;
+   	transform: translate(0%,80%);
+   	margin-top: 50px;
+   	font-size: 60px;
+  }
+  .page_info h3{
+ 	 color :#fff;
+ 	 top : 50%;
+   	 left: 50%;
+ 	 font-size: 30px;
+ 	 transform: translate(0%,155%);
+  }
+  #header_line{
+   width: 70%;
+  height: 2px;
+  background-color: #7b1fa2;
+  border: #7b1fa2;
+  margin-bottom: 50px;
+  margin-top: 90px;
+  }
+  .pagination > .active > a, 
+  .pagination > .active > span, 
+  .pagination > .active > a:hover, 
+  .pagination > .active > span:hover, 
+  .pagination > .active > a:focus, 
+  .pagination > .active > span:focus {
+  
+    background: #7b1fa2;
+    border-color: #7b1fa2;
+  }
+  .pagination>li>a, 
+  .pagination>li>span{
+    line-height : 1;
+  }
+.butt {
+  border: 5em;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  padding: 0.7em 2em;
+  border-radius: 65px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  color: white;
+  margin: 0 auto;
+  size: 20px;
+  width: 100;
+}
+
+.butt .text {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+}
+
+.butt:after {
+  content: "";
+  border-radius: 18px;
+  position: absolute;
+  margin: 4px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: #0e0e10;
+}
+
+.butt:hover {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+}
+
+.butt:hover .text {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+}
+  

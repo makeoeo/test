@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/*초기화*/
+*{
+    margin: 0px auto;
+    padding: 0px;
+  }
+  html, body{
+    font-size: 12px;
+  }
+  body{
+    width: 960px;
+    margin: 0px auto;
+    background-color: black;
+  }
+  a{
+    text-decoration: none;
+    color: black;    
+  }
+  li{
+    list-style: none;
+  }
+  img{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+  }
+.wrap {
+    width: 600px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    background: #000;
+    margin-top: 50px;
+    font-family: none;
+    color: #fff;
+}
+
+.wrap h1 {
+font-size : 32px;
+text-align: center;
+margin-top: -70px;
+border-bottom: 3px solid #fff;
+padding-bottom: 15px;
+}
+.wrap img{
+    margin-left: 120px;
+}
+.wrap form {
+    
+    margin-top: 30px;
+}
+.wrap dl {
+    font-size : 0px;
+    margin-top: 15px;
+}
+
+.wrap dl:first-child {
+    margin-top : 0;
+}
+
+.wrap dt,
+.wrap dd {
+    display: inline-block;
+    vertical-align: middle;
+    font-size : 14px;
+}
+.wrap dt {
+    width: 25%;
+}
+.wrap dd {
+    width: 75%;
+}
+#userPass2{
+	margin-left: 150px;
+}
+
+.wrap input[type="text"], 
+.wrap input[type="password"],
+.wrap input[type="tel"],
+.wrap input[type="date"],
+.wrap input[type="email"],
+.wrap select {
+    padding : 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.wrap input[type="button"]{
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 2px;
+    background: #7b1fa2;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.wrap input[type="submit"] {
+    display: block;
+    margin: 30px auto 0 auto;
+    padding: 20px 50px;
+    border: 0;
+    border-radius: 100px;
+    background: #7b1fa2;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.wrap input[type="radio"] { 
+    display: none;
+
+}
+
+
+.wrap input[type="checkbox"] {
+    display : none;
+}
+
+.wrap input[type="checkbox"] + label {
+    margin-left: 20px;
+    padding-left: 20px;
+    background: url(./img/chk_off.png) no-repeat 0 0;
+}
+
+.wrap input[type="checkbox"]:checked + label {
+
+    background-image: url(./img/chk_on.png);
+}
+
+.wrap dd label:nth-of-type(1){
+    margin-left: 0;
+}
+.butt {
+  border: 5em;
+  cursor: pointer;
+  outline: none;
+  font-size: 9px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  padding: 0.7em 2em;
+  border-radius: 65px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  color: white;
+  margin: 0 auto;
+  size: 20px;
+  width: 100;
+  font-size:12px;
+  margin-top: 30px;
+}
+
+.butt .text {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+}
+
+.butt:after {
+  content: "";
+  border-radius: 18px;
+  position: absolute;
+  margin: 4px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: #0e0e10;
+}
+
+.butt:hover {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+}
+
+.butt:hover .text {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+}
